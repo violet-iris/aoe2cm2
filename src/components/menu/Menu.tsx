@@ -22,9 +22,9 @@ class Menu extends React.Component<WithTranslation, object> {
             <section className="section">
                 <div className="container is-desktop">
                     <Modal/>
-                    <div className="has-text-centered pb-5">
-                        <img src="/images/aoe2cm2.png" alt="Age of Empires - Captains Mode Logo"/>
-                    </div>
+                    {/*<div className="has-text-centered pb-5">*/}
+                    {/*    <img src="/images/aoe2cm2.png" alt="Age of Empires - Captains Mode Logo"/>*/}
+                    {/*</div>*/}
                     <div className="has-text-centered">
                         <h1 className="title is-hidden">Age of Empires</h1>
                         <h2 className="subtitle is-hidden">Captains Mode</h2>

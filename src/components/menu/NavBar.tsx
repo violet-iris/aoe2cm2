@@ -11,12 +11,23 @@ class NavBar extends React.Component<WithTranslation, object> {
         return (
             <nav className="navbar is-flex-touch" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
-                    <h1 className="navbar-item"><Link to={"/"}>Captains Mode for Age of Empires</Link></h1>
+                    <Link to={"/"}>
+                        <img
+                          src="/images/aoe2cm2.png"
+                          alt="Age of Empires - Captains Mode Logo"
+                          style={{height: "45px", objectFit: "contain", marginLeft: "10px", marginTop: "5px"}}
+                        />
+                    </Link>
+                    <h1 className="navbar-item">
+                        <Link to={"/"}>帝国时代BanPick模式</Link>
+                        {/*<Link to={"/"}>Captains Mode for Age of Empires</Link>*/}
+                    </h1>
                 </div>
+
                 <div className="navbar-end is-flex-touch">
-                    <div className="navbar-item">
-                        <a href="https://siegeengineers.org/donate/?from=aoe2cm" className="button is-ghost"><Trans>menu.donate</Trans></a>
-                    </div>
+                {/*<div className="navbar-item">*/}
+                    {/*    <a href="https://siegeengineers.org/donate/?from=aoe2cm" className="button is-ghost"><Trans>menu.donate</Trans></a>*/}
+                    {/*</div>*/}
                     <div className="navbar-item">
                         <Trans i18nKey="youAre">You are:</Trans> &nbsp;
                         <div className="buttons has-addons is-inline-flex has-tooltip-arrow has-tooltip-bottom"

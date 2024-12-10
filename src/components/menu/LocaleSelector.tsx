@@ -39,10 +39,10 @@ class LocaleSelector extends React.Component<IProps, object> {
                 <div className="dropdown-menu" id="dropdown-menu" role="menu">
                     <div className="dropdown-content">
                         {localeOptions}
-                        <hr className="dropdown-divider"/>
-                        <a href="https://github.com/SiegeEngineers/aoe2cm2#translations"
-                           className="dropdown-item" target="_blank" rel="noopener noreferrer">Submit a Translation
-                        </a>
+                        {/*<hr className="dropdown-divider"/>*/}
+                        {/*<a href="https://github.com/SiegeEngineers/aoe2cm2#translations"*/}
+                        {/*   className="dropdown-item" target="_blank" rel="noopener noreferrer">Submit a Translation*/}
+                        {/*</a>*/}
                     </div>
                 </div>
             </div>
